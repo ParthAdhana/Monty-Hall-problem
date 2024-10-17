@@ -28,5 +28,3 @@ The Monty Hall problem is a famous probability puzzle based on the game show *Le
 ## How It Works
 
 The simulation runs a specified number of trials, randomly assigning the prize and the contestant's initial choice each time. It then records the outcomes based on whether the contestant sticks with their initial choice or switches after the host opens a door.
-
-
