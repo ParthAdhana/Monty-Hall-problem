@@ -38,5 +38,13 @@ for (let i = 0; i < trials; i++) {
   
 }
 
-console.log(`Sticking won ${stickWins} times.`);
-console.log(`Switching won ${switchWins} times.`);
+// Calculate the probabilities in percentage
+const stickWinPercentage = ((stickWins / trials) * 100).toFixed(2);
+const switchWinPercentage = ((switchWins / trials) * 100).toFixed(2);
+
+console.log(`After ${trials} trials:`);
+console.log(`- Wins by sticking with the initial choice: ${stickWins} (${stickWinPercentage}%)`);
+console.log(`- Wins by switching to the other door: ${switchWins} (${switchWinPercentage}%)`);
+
+console.log(`\nProbability of winning by sticking: ${stickWinPercentage}%`);
+console.log(`Probability of winning by switching: ${switchWinPercentage}%`);
