@@ -3,7 +3,6 @@ let switchWins = 0;
 const trials = 10000;
 
 for (let i = 0; i < trials; i++) {
-  // (Place the corrected code here without the console.log statements)
   const initialArray = [1, 2, 3];
 
 
